@@ -4,16 +4,6 @@ author: "My Name"
 date: "2019"
 site: bookdown::bookdown_site
 documentclass: book
-output:
-  bookdown::gitbook:
-    config:
-      sharing: no
-  bookdown::pdf_book:
-    toc: true
-    includes:
-      in_header: latex/preamble.tex
-      before_body: latex/before_body.tex
-      after_body: latex/after_body.tex
 bibliography: bibliography.bib
 link-citations: true
 ---
