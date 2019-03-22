@@ -23,7 +23,7 @@ plot(pressure, pch = 19, type = "b")
 And we can include image files directly, such as Figure \@ref(fig:knitlogo).
 
 ```{r knitlogo, fig.cap='Another example figure.', fig.align='center', out.width='75%'}
-knitr::include_graphics("img/knit-logo.png")
+knitr::include_graphics("img/mtcars-scatter.png")
 ```
 
 And here is an example table of regression coefficients in Table \@ref(tab:mtreg).
