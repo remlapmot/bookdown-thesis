@@ -1,0 +1,8 @@
+[
+["index.html", "MSc Data Science Thesis Acknowledgements", " MSc Data Science Thesis My Name 2019 Acknowledgements I would like to thank … "],
+["introduction.html", "1 Introduction 1.1 Background information 1.2 Literature review", " 1 Introduction 1.1 Background information text 1 text 2 text 3 more text more text 1.2 Literature review One important development was made by Abrams, Gillies, and Lambert (2005). "],
+["methods.html", "2 Methods 2.1 Important main method 2.2 Additional method", " 2 Methods 2.1 Important main method Initial modelling was performed using linear regression as defined in equation (2.1). \\[\\begin{equation} y_i = \\beta_0 + \\beta_1x_i + \\varepsilon_i,\\ \\varepsilon_i \\overset{iid}{\\sim} N(0, \\sigma^2) \\tag{2.1} \\end{equation}\\] 2.2 Additional method text 6 text 7 An example of a figure is shown in Figure 2.1. Figure 2.1: An example figure. And we can include image files directly, such as Figure 2.2. Figure 2.2: Another example figure. And here is an example table of regression coefficients in Table 2.1. Table 2.1: Parameter estimates from regression of mpg on weight. Estimate 95% CI lower limit 95% CI upper limit (Intercept) 37.29 33.61 40.97 wt -5.34 -6.44 -4.25 "],
+["discussion.html", "3 Discussion 3.1 What I found 3.2 What it means", " 3 Discussion 3.1 What I found text 1 text 2 text 3 more text more text 3.2 What it means text 6 text 7 "],
+["references.html", "4 References", " 4 References Abrams, K. R., C. L. Gillies, and P. C. Lambert. 2005. “Meta-Analysis of Heterogeneously Reported Trials Assessing Change from Baseline.” Statistics in Medicine 24: 3823–44. "],
+["appendix.html", "Appendix R code", " Appendix R code model &lt;- lm(y ~ x1 + x2, data = df) summary(model) "]
+]

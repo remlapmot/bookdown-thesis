@@ -1,0 +1,8 @@
+# Appendix{-}
+
+## R code{-}
+
+```{r, eval=FALSE, echo=TRUE}
+model <- lm(y ~ x1 + x2, data = df)
+summary(model)
+```
