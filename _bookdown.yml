@@ -1,2 +1,2 @@
-book_filename: bookdown-thesis
+book_filename: "bookdown-thesis.Rmd"
 output_dir: "docs"
