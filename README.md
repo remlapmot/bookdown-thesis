@@ -10,4 +10,4 @@ Helpful links are:
 * The Rmarkdown guide is here: https://bookdown.org/yihui/rmarkdown/
 
 Update:
-* The thesisdown package provides a richer implementation of using bookdown to create a thesis. https://github.com/ismayc/thesisdown
+* The thesisdown package provides a richer implementation of using bookdown to create a thesis: https://github.com/ismayc/thesisdown
