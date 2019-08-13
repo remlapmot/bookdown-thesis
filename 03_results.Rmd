@@ -13,15 +13,3 @@ knitr::kable(coefcis,
              booktabs = TRUE,
              caption = "Parameter estimates from regression of mpg on weight.")
 ```
-
-Alternative presentation of results.
-```{r tab2}
-coeftab <-
-  pixiedust::dust(mod) %>%
-  pixiedust::sprinkle(cols = c("estimate", "std.error", "statistic"),
-                      round = 2) %>%
-  pixiedust::sprinkle(cols = "p.value", fn = quote(pvalString(value))) %>%
-  pixiedust::sprinkle_colnames("Term", "Coefficient", "SE", "t-statistic",
-                               "P-value")
-knitr::kable(coeftab)
-```
