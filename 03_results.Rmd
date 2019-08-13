@@ -1,0 +1,27 @@
+# Results
+
+## Main results
+
+And here is an example table of regression coefficients in Table \@ref(tab:mtreg).
+```{r mtreg}
+mod <- lm(mpg ~ wt, data = mtcars)
+coefcis <- cbind(coef(mod), confint.default(mod))
+colnames(coefcis) <-
+  c("Estimate", "95% CI lower limit", "95% CI upper limit")
+knitr::kable(coefcis,
+             digits = 2,
+             booktabs = TRUE,
+             caption = "Parameter estimates from regression of mpg on weight.")
+```
+
+Alternative presentation of results.
+```{r}
+coeftab <-
+  pixiedust::dust(mod) %>%
+  pixiedust::sprinkle(cols = c("estimate", "std.error", "statistic"),
+                      round = 2) %>%
+  pixiedust::sprinkle(cols = "p.value", fn = quote(pvalString(value))) %>%
+  pixiedust::sprinkle_colnames("Term", "Coefficient", "SE", "t-statistic",
+                               "P-value")
+knitr::kable(coeftab)
+```

@@ -25,11 +25,3 @@ And we can include image files directly, such as Figure \@ref(fig:knitlogo).
 ```{r knitlogo, fig.cap='Another example figure.', fig.align='center', out.width='75%'}
 knitr::include_graphics("img/mtcars-scatter.png")
 ```
-
-And here is an example table of regression coefficients in Table \@ref(tab:mtreg).
-```{r mtreg}
-mod <- lm(mpg ~ wt, data = mtcars)
-coefcis <- cbind(coef(mod), confint.default(mod))
-colnames(coefcis) <- c("Estimate","95% CI lower limit","95% CI upper limit")
-knitr::kable(coefcis, digits = 2, booktabs = TRUE, caption = "Parameter estimates from regression of mpg on weight.")
-```
