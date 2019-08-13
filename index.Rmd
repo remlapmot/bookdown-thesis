@@ -6,6 +6,8 @@ site: bookdown::bookdown_site
 documentclass: book
 bibliography: bibliography.bib
 link-citations: true
+lot: yes
+lof: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -18,6 +20,7 @@ knitr::knit_hooks$set(chunk = function(x, options) {
 })
 require(broom)
 require(pixiedust)
+library(tidyverse)
 ```
 
 # Acknowledgements{-}

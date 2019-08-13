@@ -15,7 +15,7 @@ knitr::kable(coefcis,
 ```
 
 Alternative presentation of results.
-```{r}
+```{r tab2}
 coeftab <-
   pixiedust::dust(mod) %>%
   pixiedust::sprinkle(cols = c("estimate", "std.error", "statistic"),
