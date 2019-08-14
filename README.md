@@ -10,21 +10,16 @@ Helpful links are:
 * The Rmarkdown guide is here: https://bookdown.org/yihui/rmarkdown/
 
 Update:
+
 * The thesisdown package provides a richer implementation of using bookdown to create a thesis: https://github.com/ismayc/thesisdown
 
 To open the thesis double click the `.Rproj` (RStudio project) file. This will open the project in a new instance of RStudio.
 
 To build the thesis, either
 
-* In RStudio navigate to the Build pane and either click `Build Book` or select the downwards arrow to the right to choose the output format/s you require.
-* Run the commands below:
-```{r}
+* in RStudio navigate to the Build pane and either click `Build Book` or select the downwards arrow to the right to choose the output format/s you require.
+* or, run the commands below:
+```r
 rmarkdown::render_site(output_format = 'bookdown::gitbook', encoding = 'UTF-8')
 rmarkdown::render_site(output_format = 'bookdown::pdf_book', encoding = 'UTF-8')
-```
-
-For reproducibility here are the packages and versions I built this with.
-```{r}
-require(sessioninfo)
-sessioninfo::session_info()
 ```
