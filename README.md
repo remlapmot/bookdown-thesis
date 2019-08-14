@@ -20,6 +20,10 @@ To build the thesis, either
 * in RStudio navigate to the Build pane and either click `Build Book` or select the downwards arrow to the right to choose the output format/s you require.
 * or, run the commands below:
 ```r
+rmarkdown::render_site(encoding = 'UTF-8')
+```
+* or, if you prefer to build one output run either of the following commands.
+```r
 rmarkdown::render_site(output_format = 'bookdown::gitbook', encoding = 'UTF-8')
 rmarkdown::render_site(output_format = 'bookdown::pdf_book', encoding = 'UTF-8')
 ```
