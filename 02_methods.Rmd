@@ -25,3 +25,5 @@ And we can include image files directly, such as Figure \@ref(fig:knitlogo).
 ```{r knitlogo, fig.cap='Another example figure.', fig.align='center', out.width='75%'}
 knitr::include_graphics("img/mtcars-scatter.png")
 ```
+
+Also, this is how to reference a section, e.g. the Introduction was chapter \@ref(introduction) and the Literature Review was section \@ref(literature-review).
