@@ -27,3 +27,8 @@ rmarkdown::render_site(encoding = 'UTF-8')
 rmarkdown::render_site(output_format = 'bookdown::gitbook', encoding = 'UTF-8')
 rmarkdown::render_site(output_format = 'bookdown::pdf_book', encoding = 'UTF-8')
 ```
+
+To keep the intermediate `.md` file run:
+```r
+bookdown::render_book('index.Rmd', clean = FALSE)
+```
