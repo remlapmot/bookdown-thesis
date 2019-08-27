@@ -1,0 +1,326 @@
+\documentclass[]{book}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage{hyperref}
+\hypersetup{unicode=true,
+            pdftitle={MSc Data Science Thesis},
+            pdfauthor={My Name},
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs}
+\usepackage{graphicx,grffile}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+%%% Use protect on footnotes to avoid problems with footnotes in titles
+\let\rmarkdownfootnote\footnote%
+\def\footnote{\protect\rmarkdownfootnote}
+
+%%% Change title format to be more compact
+\usepackage{titling}
+
+% Create subtitle command for use in maketitle
+\providecommand{\subtitle}[1]{
+  \posttitle{
+    \begin{center}\large#1\end{center}
+    }
+}
+
+\setlength{\droptitle}{-2em}
+
+  \title{MSc Data Science Thesis}
+    \pretitle{\vspace{\droptitle}\centering\huge}
+  \posttitle{\par}
+    \author{My Name}
+    \preauthor{\centering\large\emph}
+  \postauthor{\par}
+      \predate{\centering\large\emph}
+  \postdate{\par}
+    \date{2019}
+
+\usepackage[none]{hyphenat}
+\pagestyle{plain}
+\raggedbottom
+\usepackage{hyperref}
+\usepackage{floatpag}
+\floatpagestyle{empty}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage[document]{ragged2e} % left-justified text - comment for fully justified text
+\frontmatter
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
+
+\begin{document}
+\maketitle
+
+\thispagestyle{empty}
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\listoftables
+\listoffigures
+\hypertarget{acknowledgements}{%
+\chapter*{Acknowledgements}\label{acknowledgements}}
+\addcontentsline{toc}{chapter}{Acknowledgements}
+
+I would like to thank \ldots{}
+
+\mainmatter
+
+\hypertarget{introduction}{%
+\chapter{Introduction}\label{introduction}}
+
+\hypertarget{background-information}{%
+\section{Background information}\label{background-information}}
+
+\begin{itemize}
+\tightlist
+\item
+  text 1
+\item
+  text 2
+\item
+  text 3
+\item
+  more text
+\item
+  more text
+\end{itemize}
+
+\hypertarget{literature-review}{%
+\section{Literature review}\label{literature-review}}
+
+One important development was made by Abrams, Gillies, and Lambert (\protect\hyperlink{ref-Abrams2005}{2005}).
+
+\hypertarget{methods}{%
+\chapter{Methods}\label{methods}}
+
+\hypertarget{important-main-method}{%
+\section{Important main method}\label{important-main-method}}
+
+Initial modelling was performed using linear regression as defined in equation \eqref{eq:linreg}.
+
+\begin{equation}
+y_i = \beta_0 + \beta_1x_i + \varepsilon_i,\  \varepsilon_i \overset{iid}{\sim} N(0, \sigma^2)
+\label{eq:linreg}
+\end{equation}
+
+\hypertarget{additional-method}{%
+\section{Additional method}\label{additional-method}}
+
+\begin{itemize}
+\tightlist
+\item
+  text 6
+\item
+  text 7
+\end{itemize}
+
+\hypertarget{results}{%
+\chapter{Results}\label{results}}
+
+\hypertarget{main-results}{%
+\section{Main results}\label{main-results}}
+
+And here is an example table of regression coefficients in Table \ref{tab:mtreg}.
+
+\begin{table}[H]
+
+\caption{\label{tab:mtreg}Parameter estimates from regression of mpg on weight.}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+  & Estimate & 95\% CI lower limit & 95\% CI upper limit\\
+\midrule
+(Intercept) & 37.29 & 33.61 & 40.97\\
+wt & -5.34 & -6.44 & -4.25\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Example text example text example text example text example text example text example text example text example text example text example text example text example text example text example text example text example text example text.
+
+An example of a figure is shown in Figure \ref{fig:pressure}.
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=0.75\linewidth]{bookdown-thesis_files/figure-latex/pressure-1} 
+
+}
+
+\caption{An example figure.}\label{fig:pressure}
+\end{figure}
+
+And we can include image files directly, such as Figure \ref{fig:knitlogo}.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.75\linewidth]{img/mtcars-scatter} 
+
+}
+
+\caption{Another example figure.}\label{fig:knitlogo}
+\end{figure}
+
+To figure code chunks add the chunk option \texttt{fig.pos="H"} to use the LaTeX float package to try and position the figure where the code appears.
+
+Also, this is how to reference a section, e.g.~the Introduction was chapter \ref{introduction} and the Literature Review was section \ref{literature-review}.
+
+\hypertarget{discussion}{%
+\chapter{Discussion}\label{discussion}}
+
+\hypertarget{what-i-found}{%
+\section{What I found}\label{what-i-found}}
+
+\begin{itemize}
+\tightlist
+\item
+  text 1
+\item
+  text 2
+\item
+  text 3
+\item
+  more text
+\item
+  more text
+\end{itemize}
+
+\hypertarget{what-it-means}{%
+\section{What it means}\label{what-it-means}}
+
+\begin{itemize}
+\tightlist
+\item
+  text 6
+\item
+  text 7
+\end{itemize}
+
+\hypertarget{references}{%
+\chapter{References}\label{references}}
+
+\hypertarget{refs}{}
+\leavevmode\hypertarget{ref-Abrams2005}{}%
+Abrams, K. R., C. L. Gillies, and P. C. Lambert. 2005. ``Meta-Analysis of Heterogeneously Reported Trials Assessing Change from Baseline.'' \emph{Statistics in Medicine} 24: 3823--44.
+
+\hypertarget{appendix}{%
+\chapter*{Appendix}\label{appendix}}
+\addcontentsline{toc}{chapter}{Appendix}
+
+\hypertarget{r-code}{%
+\section*{R code}\label{r-code}}
+\addcontentsline{toc}{section}{R code}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{model <-}\StringTok{ }\KeywordTok{lm}\NormalTok{(y }\OperatorTok{~}\StringTok{ }\NormalTok{x1 }\OperatorTok{+}\StringTok{ }\NormalTok{x2, }\DataTypeTok{data =}\NormalTok{ df)}
+\KeywordTok{summary}\NormalTok{(model)}
+\end{Highlighting}
+\end{Shaded}
+
+\backmatter
+
+
+\end{document}

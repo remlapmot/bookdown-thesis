@@ -1,0 +1,14 @@
+# Discussion
+
+## What I found
+
+- text 1
+- text 2
+- text 3
+- more text
+- more text
+
+## What it means
+
+- text 6
+- text 7
