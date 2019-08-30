@@ -4,10 +4,12 @@ author: "My Name"
 date: "2019"
 site: bookdown::bookdown_site
 documentclass: book
+classoption: openany
 bibliography: bibliography.bib
 link-citations: true
 lot: yes
 lof: yes
+geometry: margin=1in
 ---
 
 ```{r setup, include=FALSE}
