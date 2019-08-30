@@ -1,6 +1,6 @@
-# Appendix{-}
+# (APPENDIX) Appendix {-}
 
-## R code{-}
+# Appendix of R code {-}
 
 
 ```r

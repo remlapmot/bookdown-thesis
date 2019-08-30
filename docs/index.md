@@ -1,13 +1,15 @@
 ---
-title: "MSc Data Science Thesis"
+#title: "MSc Data Science Thesis" # commented out to use custom titlepage
 author: "My Name"
 date: "2019"
 site: bookdown::bookdown_site
 documentclass: book
+classoption: openany
 bibliography: bibliography.bib
 link-citations: true
 lot: yes
 lof: yes
+geometry: margin=1in
 ---
 
 
