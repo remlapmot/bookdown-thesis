@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.7.22)  30 AUG 2019 13:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.4)  4 DEC 2019 15:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **bookdown-thesis.tex
 (./bookdown-thesis.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2019-10-01> patch level 3
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
-Document Class: book 2018/09/03 v1.4i Standard LaTeX document class
+Document Class: book 2019/10/25 v1.4k Standard LaTeX document class
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo
-File: bk10.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+File: bk10.clo 2019/10/25 v1.4k Standard LaTeX file (size option)
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -68,12 +68,13 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks14
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 ))
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath
 .sty
-Package: amsmath 2018/12/01 v2.17b AMS math features
+Package: amsmath 2019/11/16 v2.17d AMS math features
 \@mathmargin=\skip43
 For additional information on amsmath, use the `?' option.
 
@@ -97,20 +98,20 @@ sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
 \inf@bad=\count89
-LaTeX Info: Redefining \frac on input line 223.
+LaTeX Info: Redefining \frac on input line 227.
 \uproot@=\count90
 \leftroot@=\count91
-LaTeX Info: Redefining \overline on input line 385.
+LaTeX Info: Redefining \overline on input line 389.
 \classnum@=\count92
 \DOTSCASE@=\count93
-LaTeX Info: Redefining \ldots on input line 482.
-LaTeX Info: Redefining \dots on input line 485.
-LaTeX Info: Redefining \cdots on input line 606.
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
 \big@size=\dimen105
-LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count94
 \c@MaxMatrixCols=\count95
 \dotsspace@=\muskip10
@@ -131,28 +132,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
 \multlinegap=\skip44
 \multlinetaggap=\skip45
 \mathdisplay@stack=\toks19
-LaTeX Info: Redefining \[ on input line 2844.
-LaTeX Info: Redefining \] on input line 2845.
+LaTeX Info: Redefining \[ on input line 2858.
+LaTeX Info: Redefining \] on input line 2859.
 )
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ifxetex/ifxet
-ex.sty
-Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
-)
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/iflu
-atex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fixltx2e.s
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifxetex
+.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.s
 ty
-Package: fixltx2e 2016/12/29 v2.1a fixes to LaTeX (obsolete)
-Applying: [2015/01/01] Old fixltx2e package on input line 46.
-
-Package fixltx2e Warning: fixltx2e is not required with releases after 2015
-(fixltx2e)                All fixes are now in the LaTeX kernel.
-(fixltx2e)                See the latexrelease package for details.
-
-Already applied: [0000/00/00] Old fixltx2e package on input line 53.
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifluate
+x.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.st
 y
@@ -167,11 +160,6 @@ Package: inputenc 2018/08/11 v1.3c Input encoding file
 \inpenc@prehook=\toks20
 \inpenc@posthook=\toks21
 )
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/upquote
-.sty
-Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
-tim
-
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.s
 ty
 Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
@@ -194,7 +182,7 @@ Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.dfu
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -264,6 +252,8 @@ File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
    defining Unicode char U+FEFF (decimal 65279)
 ))
 LaTeX Info: Redefining \oldstylenums on input line 334.
@@ -329,185 +319,251 @@ Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
 Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
-))
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geomet
-ry.sty
-Package: geometry 2018/04/16 v5.8 Page Geometry
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/upquote/upquote
+.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/parskip
+.sty
+Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvopt
+ions.sty
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval
 .sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/ifpd
-f.sty
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/ifvt
-ex.sty
-Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
-Package ifvtex Info: VTeX not detected.
-)
-\Gm@cnth=\count101
-\Gm@cntv=\count102
-\c@Gm@tempcnt=\count103
-\Gm@bindingoffset=\dimen112
-\Gm@wd@mp=\dimen113
-\Gm@odd@mp=\dimen114
-\Gm@even@mp=\dimen115
-\Gm@layoutwidth=\dimen116
-\Gm@layoutheight=\dimen117
-\Gm@layouthoffset=\dimen118
-\Gm@layoutvoffset=\dimen119
-\Gm@dimlist=\toks23
-)
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
-ef.sty
-Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/hobs
-ub-hyperref.sty
-Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
-
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/hobs
-ub-generic.sty
-Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
-Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/ltxc
+mds.sty
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-Package hobsub Info: Skipping package `ifluatex' (already loaded).
-Package hobsub Info: Skipping package `ifvtex' (already loaded).
-Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
-Package hobsub Info: Skipping package `ifpdf' (already loaded).
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/kvse
+tkeys.sty
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
-Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
-)
-Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
-Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
-)
-Package hobsub Info: Skipping package `hobsub' (already loaded).
-Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
-Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
-Package: xcolor-patch 2016/05/16 xcolor patch
-Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
-Package atveryend Info: \enddocument detected (standard20110627).
-Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
-Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
-Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
-)
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/auxhoo
-k.sty
-Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
-)
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/kvopti
-ons.sty
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-)
-\@linkdim=\dimen120
-\Hy@linkcounter=\count104
-\Hy@pagecounter=\count105
 
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
-.def
-File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/infw
+arerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 )
-\Hy@SavedSpaceFactor=\count106
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/hyp
-erref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-Package hyperref Info: Hyper figures OFF on input line 4519.
-Package hyperref Info: Link nesting OFF on input line 4524.
-Package hyperref Info: Hyper index ON on input line 4527.
-Package hyperref Info: Plain pages OFF on input line 4534.
-Package hyperref Info: Backreferencing OFF on input line 4539.
-Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count107
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
-\Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 5125.
-\XeTeXLinkMargin=\dimen121
-\Fld@menulength=\count108
-\Field@Width=\dimen122
-\Fld@charsize=\dimen123
-Package hyperref Info: Hyper figures OFF on input line 6380.
-Package hyperref Info: Link nesting OFF on input line 6385.
-Package hyperref Info: Hyper index ON on input line 6388.
-Package hyperref Info: backreferencing OFF on input line 6395.
-Package hyperref Info: Link coloring OFF on input line 6400.
-Package hyperref Info: Link coloring with OCG OFF on input line 6405.
-Package hyperref Info: PDF/A mode OFF on input line 6410.
-LaTeX Info: Redefining \ref on input line 6450.
-LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count109
-\c@Item=\count110
-\c@Hfootnote=\count111
-)
-Package hyperref Info: Driver (autodetected): hpdftex.
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
-x.def
-File: hpdftex.def 2018/11/30 v6.88e Hyperref driver for pdfTeX
-\Fld@listcount=\count112
-\c@bookmark@seq@number=\count113
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunf
-ilecheck.sty
-Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
-82.
-)
-\Hy@SectionHShift=\skip46
-)
-Package hyperref Info: Option `unicode' set `true' on input line 29.
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.
-def
-File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
-Package hyperref Info: Option `breaklinks' set `true' on input line 29.
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.
-sty
-Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/etex
+cmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+)))
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
+ox.sty
+Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count101
+))
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.s
+ty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/co
 lor.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package color Info: Driver file: pdftex.def on input line 147.
+Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pd
 ftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/bookma
+rk.sty
+Package: bookmark 2019/06/04 v1.27 PDF bookmarks (HO)
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/pdfe
+scape.sty
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/pdftexcmds/pdft
+excmds.sty
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
 ))
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifpdf.s
+ty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/ifvtex.
+sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperr
+ef.sty
+Package: hyperref 2019/11/10 v7.00c Hypertext links for LaTeX
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/kvde
+finekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/hycolo
+r.sty
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/xcolor
+-patch.sty
+Package: xcolor-patch 2016/05/16 xcolor patch
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/hopatc
+h.sty
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+)))
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/letltx
+macro.sty
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/auxhoo
+k.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+\@linkdim=\dimen112
+\Hy@linkcounter=\count102
+\Hy@pagecounter=\count103
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc
+.def
+File: pd1enc.def 2019/11/10 v7.00c Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/intc
+alc.sty
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count104
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/hyp
+erref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4409.
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.
+def
+File: puenc.def 2019/11/10 v7.00c Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4535.
+Package hyperref Info: Link nesting OFF on input line 4540.
+Package hyperref Info: Hyper index ON on input line 4543.
+Package hyperref Info: Plain pages OFF on input line 4550.
+Package hyperref Info: Backreferencing OFF on input line 4555.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4788.
+\c@Hy@tempcnt=\count105
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5147.
+\XeTeXLinkMargin=\dimen113
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/bits
+et.sty
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/bigi
+ntcalc.sty
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count106
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
+Package hyperref Info: Hyper figures OFF on input line 6418.
+Package hyperref Info: Link nesting OFF on input line 6423.
+Package hyperref Info: Hyper index ON on input line 6426.
+Package hyperref Info: backreferencing OFF on input line 6433.
+Package hyperref Info: Link coloring OFF on input line 6438.
+Package hyperref Info: Link coloring with OCG OFF on input line 6443.
+Package hyperref Info: PDF/A mode OFF on input line 6448.
+LaTeX Info: Redefining \ref on input line 6488.
+LaTeX Info: Redefining \pageref on input line 6492.
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/atbe
+gshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+)
+\Hy@abspage=\count107
+\c@Item=\count108
+\c@Hfootnote=\count109
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdfte
+x.def
+File: hpdftex.def 2019/11/10 v7.00c Hyperref driver for pdfTeX
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/atvery
+end.sty
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+)
+\Fld@listcount=\count110
+\c@bookmark@seq@number=\count111
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/rerunf
+ilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/uniq
+uecounter.sty
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip46
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/bkm-pd
+ftex.def
+File: bkm-pdftex.def 2019/06/04 v1.27 bookmark driver for pdfTeX (HO)
+\BKM@id=\count112
+))
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geomet
+ry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+\Gm@cnth=\count113
+\Gm@cntv=\count114
+\c@Gm@tempcnt=\count115
+\Gm@bindingoffset=\dimen116
+\Gm@wd@mp=\dimen117
+\Gm@odd@mp=\dimen118
+\Gm@even@mp=\dimen119
+\Gm@layoutwidth=\dimen120
+\Gm@layoutheight=\dimen121
+\Gm@layouthoffset=\dimen122
+\Gm@layoutvoffset=\dimen123
+\Gm@dimlist=\toks23
+)
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyvrb/fancyv
 rb.sty
-Package: fancyvrb 2019/01/15
-Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count114
+Package: fancyvrb 2019/11/09
+Style option: `fancyvrb' v3.4 <2019/11/09> (tvz)
+\FV@CodeLineNo=\count116
 \FV@InFile=\read1
 \FV@TabBox=\box29
-\c@FancyVerbLine=\count115
-\FV@StepNumber=\count116
+\c@FancyVerbLine=\count117
+\FV@StepNumber=\count118
 \FV@OutFile=\write3
 )
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/framed/framed.s
@@ -521,26 +577,26 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 )
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable
 .sty
-Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+Package: longtable 2019/02/06 v4.12 Multi-page Table package (DPC)
 \LTleft=\skip48
 \LTright=\skip49
 \LTpre=\skip50
 \LTpost=\skip51
-\LTchunksize=\count117
+\LTchunksize=\count119
 \LTcapwidth=\dimen128
 \LT@head=\box30
 \LT@firsthead=\box31
 \LT@foot=\box32
 \LT@lastfoot=\box33
-\LT@cols=\count118
-\LT@rows=\count119
-\c@LT@tables=\count120
-\c@LT@chunks=\count121
+\LT@cols=\count120
+\LT@rows=\count121
+\c@LT@tables=\count122
+\c@LT@chunks=\count123
 \LT@p@ftn=\toks24
 )
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/booktabs/bookta
 bs.sty
-Package: booktabs 2016/04/27 v1.618033 publication quality tables
+Package: booktabs 2019/10/08 v1.6180339 publication quality tables
 \heavyrulewidth=\dimen129
 \lightrulewidth=\dimen130
 \cmidrulewidth=\dimen131
@@ -551,13 +607,19 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen136
 \cmidrulekern=\dimen137
 \defaultaddspace=\dimen138
-\@cmidla=\count122
-\@cmidlb=\count123
+\@cmidla=\count124
+\@cmidlb=\count125
 \@aboverulesep=\dimen139
 \@belowrulesep=\dimen140
-\@thisruleclass=\count124
-\@lastruleclass=\count125
+\@thisruleclass=\count126
+\@lastruleclass=\count127
 \@thisrulewidth=\dimen141
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/mdwtools/footno
+te.sty
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box34
+\fn@width=\dimen142
 )
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
 cx.sty
@@ -565,7 +627,7 @@ Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/graphi
 cs.sty
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/trig.s
 ty
@@ -575,34 +637,17 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 aphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen142
-\Gin@req@width=\dimen143
+\Gin@req@height=\dimen143
+\Gin@req@width=\dimen144
 )
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/grffil
-e.sty
-Package: grffile 2017/06/30 v1.18 Extended file name support for graphics (HO)
-Package grffile Info: Option `multidot' is set to `true'.
-Package grffile Info: Option `extendedchars' is set to `false'.
-Package grffile Info: Option `space' is set to `true'.
-Package grffile Info: \Gin@ii of package `graphicx' fixed on input line 494.
-)
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/parskip/parskip
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/grffile/grffile
 .sty
-Package: parskip 2019-01-16 v2.0c non-zero parskip adjustments
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolb
-ox.sty
-Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count126
-))
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/titling
-.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip52
-\thanksmargin=\skip53
-\droptitle=\skip54
+Package: grffile 2019/11/11 v2.1 Extended file name support for graphics (legac
+y)
+Package grffile Info: This package is an empty stub for compatibility on input 
+line 40.
 )
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyphenat/hyphen
 at.sty
@@ -617,14 +662,15 @@ Package: floatpag 1999/04/29 FLOAT PAGESTYLE
 )
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count127
+\c@float@type=\count128
 \float@exts=\toks25
-\float@box=\box34
+\float@box=\box35
 \@float@everytoks=\toks26
-\@floatcapt=\box35
+\@floatcapt=\box36
 )
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ms/ragged2e.sty
-Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/ragged2e/ragged
+2e.sty
+Package: ragged2e 2019/07/28 v2.2 ragged2e Package (MS)
 
 LaTeX Warning: Command \@arrayparboxrestore  has changed.
                Check if current package is valid.
@@ -637,8 +683,8 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 sc.sty
 Package: footmisc 2011/06/06 v5.5b a miscellany of footnote facilities
 \FN@temptoken=\toks27
-\footnotemargin=\dimen144
-\c@pp@next@reset=\count128
+\footnotemargin=\dimen145
+\c@pp@next@reset=\count129
 Package footmisc Info: Declaring symbol style bringhurst on input line 855.
 Package footmisc Info: Declaring symbol style chicago on input line 863.
 Package footmisc Info: Declaring symbol style wiley on input line 872.
@@ -648,50 +694,93 @@ Package footmisc Info: Declaring symbol style lamport* on input line 903.
 Package footmisc Info: Declaring symbol style lamport*-robust on input line 924
 .
 )
-\CenteringLeftskip=\skip55
-\RaggedLeftLeftskip=\skip56
-\RaggedRightLeftskip=\skip57
-\CenteringRightskip=\skip58
-\RaggedLeftRightskip=\skip59
-\RaggedRightRightskip=\skip60
-\CenteringParfillskip=\skip61
-\RaggedLeftParfillskip=\skip62
-\RaggedRightParfillskip=\skip63
-\JustifyingParfillskip=\skip64
-\CenteringParindent=\skip65
-\RaggedLeftParindent=\skip66
-\RaggedRightParindent=\skip67
-\JustifyingParindent=\skip68
+\CenteringLeftskip=\skip52
+\RaggedLeftLeftskip=\skip53
+\RaggedRightLeftskip=\skip54
+\CenteringRightskip=\skip55
+\RaggedLeftRightskip=\skip56
+\RaggedRightRightskip=\skip57
+\CenteringParfillskip=\skip58
+\RaggedLeftParfillskip=\skip59
+\RaggedRightParfillskip=\skip60
+\JustifyingParfillskip=\skip61
+\CenteringParindent=\skip62
+\RaggedLeftParindent=\skip63
+\RaggedRightParindent=\skip64
+\JustifyingParindent=\skip65
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/nonumonpart/non
+umonpart.sty
+Package: nonumonpart 2011/04/15 v1 nonumonpart.sty by Le TeXnicien de surface
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/titling/titling
+.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip66
+\thanksmargin=\skip67
+\droptitle=\skip68
 ) (./bookdown-thesis.aux)
 \openout1 = `bookdown-thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 168.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 168.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
+71.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 168.
-LaTeX Font Info:    ... okay on input line 168.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 168.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 171.
+LaTeX Font Info:    ... okay on input line 171.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 17
+1.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/ep
+stopdf-base.sty
+Package: epstopdf-base 2019-11-30 v2.9 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
+topdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box37
+Package hyperref Info: Link coloring OFF on input line 171.
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
+f.sty
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/refcou
+nt.sty
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+)
+(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/gett
+itlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count130
+)
+LaTeX Info: Redefining \ref on input line 171.
+LaTeX Info: Redefining \pageref on input line 171.
+LaTeX Info: Redefining \nameref on input line 171.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -726,56 +815,17 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 168.
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namere
-f.sty
-Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/oberdiek/gett
-itlestring.sty
-Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
-)
-\c@section@level=\count129
-)
-LaTeX Info: Redefining \ref on input line 168.
-LaTeX Info: Redefining \pageref on input line 168.
-LaTeX Info: Redefining \nameref on input line 168.
-(./bookdown-thesis.out) (./bookdown-thesis.out)
-\@outlinefile=\write4
-\openout4 = `bookdown-thesis.out'.
-
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/epstop
-df-base.sty
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/oberdiek/grfext
-.sty
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-)
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-
-(c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/latexconfig/eps
-topdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
-Package ragged2e Info: ABD: executing \RaggedRight on input line 168.
+Package ragged2e Info: ABD: executing \RaggedRight on input line 171.
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 168.
-<img/lu-logo-cmyk.jpg, id=60, 466.6233pt x 146.7081pt>
+LaTeX Info: Redefining \selectfont on input line 171.
+Package nonumonpart Info: The command \@endpart is redefined.
+<img/lu-logo-cmyk.jpg, id=4, 466.6233pt x 146.7081pt>
 File: img/lu-logo-cmyk.jpg Graphic file (type jpg)
 <use img/lu-logo-cmyk.jpg>
-Package pdftex.def Info: img/lu-logo-cmyk.jpg  used on input line 183.
+Package pdftex.def Info: img/lu-logo-cmyk.jpg  used on input line 187.
 (pdftex.def)             Requested size: 187.89914pt x 59.07619pt.
 [1
+
 
 
 
@@ -786,75 +836,79 @@ ftex.map} <./img/lu-logo-cmyk.jpg>] [2
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.198 \end{abstract}
-                     [1] (./bookdown-thesis.toc
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 3.
+l.202 \end{abstract}
+                     [1]pdfTeX warning (ext4): destination with the same identi
+fier (name{page.i}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.214 \tableofcontents
+                       [1
+
+] (./bookdown-thesis.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
+.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 3.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 2
+.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 3.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+2.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 3.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+2.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 3.
+(Font)              <10> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 3.
+(Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 3.
-LaTeX Font Info:    Try loading font information for U+msa on input line 3.
+(Font)              <5> on input line 2.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.f
 d
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.f
 d
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write5
-\openout5 = `bookdown-thesis.toc'.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.206 \listoftables
-                    [1
-
-] (./bookdown-thesis.lot)
-\tf@lot=\write6
-\openout6 = `bookdown-thesis.lot'.
+\tf@toc=\write4
+\openout4 = `bookdown-thesis.toc'.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.207 \listoffigures
-                     [2
+l.216 \listoftables
+                    [2
 
-] (./bookdown-thesis.lof)
-\tf@lof=\write7
-\openout7 = `bookdown-thesis.lof'.
+] (./bookdown-thesis.lot)
+\tf@lot=\write5
+\openout5 = `bookdown-thesis.lot'.
 
 [3
 
-] [4
+] (./bookdown-thesis.lof)
+\tf@lof=\write6
+\openout6 = `bookdown-thesis.lof'.
+
+[4
 
 ]
 Chapter 1.
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 225.
-
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
+28.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [1
@@ -866,18 +920,18 @@ Chapter 2.
 
 ]
 Chapter 3.
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 274.
-
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
+77.
 (c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 275.
-<03_results_files/figure-latex/pressure-1.pdf, id=143, 469.755pt x 325.215pt>
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 278.
+<03_results_files/figure-latex/pressure-1.pdf, id=99, 469.755pt x 325.215pt>
 File: 03_results_files/figure-latex/pressure-1.pdf Graphic file (type pdf)
 <use 03_results_files/figure-latex/pressure-1.pdf>
 Package pdftex.def Info: 03_results_files/figure-latex/pressure-1.pdf  used on 
-input line 313.
+input line 316.
 (pdftex.def)             Requested size: 352.31538pt x 243.91064pt.
 [3
 
@@ -886,29 +940,27 @@ as been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.319 
+l.322 
       ]
-<img/mtcars-scatter.png, id=153, 453.19313pt x 338.76563pt>
+<img/mtcars-scatter.png, id=108, 453.19313pt x 338.76563pt>
 File: img/mtcars-scatter.png Graphic file (type png)
 <use img/mtcars-scatter.png>
-Package pdftex.def Info: img/mtcars-scatter.png  used on input line 330.
+Package pdftex.def Info: img/mtcars-scatter.png  used on input line 333.
 (pdftex.def)             Requested size: 352.31363pt x 263.35736pt.
-[4pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}
+[4pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}
 ) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 A
-       lso, this is how to reference a section, e.g.~the Introduction was ch...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) 
-has been already used, duplicate ignored
+l.343 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.339 A
-       lso, this is how to reference a section, e.g.~the Introduction was ch...
- <./img/mtcars-scatter.png> <./03_results_files/figure-latex/pressure-1.pdf>] [
-5]
+l.343 
+       <./03_results_files/figure-latex/pressure-1.pdf> <./img/mtcars-scatter.p
+ng>] [5]
 Chapter 4.
 [6
 
@@ -919,23 +971,20 @@ Chapter 5.
 ] [8
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 397.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 397.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 400.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 400.
 (./bookdown-thesis.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 397.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 397.
-Package rerunfilecheck Info: File `bookdown-thesis.out' has not changed.
-(rerunfilecheck)             Checksum: D8FA9D6C97D9A1214F36B03A7B75D7F8;1696.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 397.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 400.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 400.
  ) 
 Here is how much of TeX's memory you used:
- 11541 strings out of 494553
- 166765 string characters out of 6175770
- 235676 words of memory out of 5000000
- 14977 multiletter control sequences out of 15000+600000
+ 12590 strings out of 494108
+ 181565 string characters out of 6172040
+ 249661 words of memory out of 5000000
+ 16405 multiletter control sequences out of 15000+600000
  45931 words of font info for 43 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 28i,8n,32p,978b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,8n,37p,814b,331s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-e
 c.enc}{c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/
 lm-mathsy.enc}{c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/d
@@ -954,10 +1003,10 @@ lmri10.pfb><c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/pu
 blic/lm/lmsy10.pfb><c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dist/fonts/
 type1/public/lm/lmtk10.pfb><c:/Users/palmertm/AppData/Roaming/TinyTeX/texmf-dis
 t/fonts/type1/public/lm/lmtt10.pfb>
-Output written on bookdown-thesis.pdf (15 pages, 1034205 bytes).
+Output written on bookdown-thesis.pdf (15 pages, 1032593 bytes).
 PDF statistics:
- 249 PDF objects out of 1000 (max. 8388607)
- 213 compressed objects within 3 object streams
- 51 named destinations out of 1000 (max. 500000)
- 128 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 244 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 50 named destinations out of 1000 (max. 500000)
+ 120 words of extra memory for PDF output out of 10000 (max. 10000000)
 
