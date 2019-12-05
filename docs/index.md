@@ -14,11 +14,8 @@ geometry: margin=1in
 
 
 
-<!-- Nb. Possibly some pandoc issue -->
-<!-- There is a \mainmatter inserted in the tex file after the preamble. -->
-<!-- So Preface moved into preamble.tex code -->
-<!-- # Acknowledgements{-} -->
+# Acknowledgements{-}
 
-<!-- I would like to thank ... -->
+I would like to thank ...
 
-<!-- \mainmatter -->
+\mainmatter
