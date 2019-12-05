@@ -1,16 +1,15 @@
 ---
-#title: "MSc Data Science Thesis" # commented out to use custom titlepage
-pagetitle: "MSc Data Science Thesis"
+title: '`r if (knitr::is_html_output() == TRUE) "MSc Data Science Thesis"`'
 author: "My Name"
-date: "2019"
-site: bookdown::bookdown_site
-documentclass: book
+date: '2019'
 classoption: openany
-bibliography: bibliography.bib
-link-citations: true
-lot: yes
-lof: yes
+documentclass: book
 geometry: margin=1in
+link-citations: yes
+lof: yes
+lot: yes
+site: bookdown::bookdown_site
+bibliography: bibliography.bib
 ---
 
 ```{r setup, include=FALSE}
