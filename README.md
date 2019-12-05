@@ -32,3 +32,7 @@ To keep the intermediate `.md` file run:
 ```r
 bookdown::render_book('index.Rmd', clean = FALSE)
 ```
+
+## Preface page numbering in pdf_book output
+
+Version 1.18 of rmarkdown adds an extra `\mainmatter` before the content from `index.Rmd` so the page numbers of the preface are not as intended under that version. See [here](https://github.com/rstudio/rmarkdown/issues/1721) for more info.
