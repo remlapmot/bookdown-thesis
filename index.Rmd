@@ -1,5 +1,6 @@
 ---
 #title: "MSc Data Science Thesis" # commented out to use custom titlepage
+pagetitle: "MSc Data Science Thesis"
 author: "My Name"
 date: "2019"
 site: bookdown::bookdown_site
