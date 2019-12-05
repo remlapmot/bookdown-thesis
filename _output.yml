@@ -7,5 +7,5 @@ bookdown::pdf_book:
     in_header: latex/preamble.tex
     before_body: latex/before_body.tex
     after_body: latex/after_body.tex
-  keep_tex: true # uncomment to keep merged tex file
+  #keep_tex: true # uncomment to keep merged tex file
 #bookdown::word_document2: default # uncomment for word document
