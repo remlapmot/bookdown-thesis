@@ -36,5 +36,5 @@ jobs:
           R -e 'install.packages(c("tidyverse", "kableExtra", "bookdown", "renv"))'
           R -e 'renv::restore()'
 
-      - name: Build site
+      - name: Bookdown
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
