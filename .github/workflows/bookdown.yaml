@@ -19,12 +19,12 @@ jobs:
           brew install pandoc
           brew install pandoc-citeproc
 
-      # - name: Cache Renv packages
-      #   uses: actions/cache@v1
-      #   with:
-      #     path: $HOME/.local/share/renv
-      #     key: r-${{ hashFiles('renv.lock') }}
-      #     restore-keys: r-
+      - name: Cache Renv packages
+        uses: actions/cache@v1
+        with:
+          path: $HOME/.local/share/renv
+          key: r-${{ hashFiles('renv.lock') }}
+          restore-keys: r-
 
       - name: Cache bookdown results
         uses: actions/cache@v1
@@ -40,3 +40,4 @@ jobs:
 
       - name: Build site
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
+        run: ls -l docs
