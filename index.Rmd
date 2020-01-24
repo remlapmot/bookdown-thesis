@@ -1,7 +1,7 @@
 ---
 title: '`r if (knitr::is_html_output() == TRUE) "MSc Data Science Thesis"`'
 author: "My Name"
-date: '2019'
+date: "`r format(Sys.Date(), '%d %B %Y')`"
 classoption: openany
 documentclass: book
 geometry: margin=1in
