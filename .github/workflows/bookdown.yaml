@@ -33,6 +33,7 @@ jobs:
 
       - name: Install packages
         run: |
+          R -e 'install.packages("tidyverse")'
           R -e 'install.packages("bookdown")'
           R -e 'install.packages("renv")'
           R -e 'renv::restore()'
