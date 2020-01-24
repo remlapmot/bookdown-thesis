@@ -40,6 +40,11 @@ jobs:
           R -e 'install.packages("renv")'
           R -e 'renv::restore()'
 
+      # Setup TinyTeX - for pdf output 
+      - name: Setup TinyTeX
+        uses: r-lib/actions/setup-tinytex@v1
+        run: tlmgr --version
+
       - name: Build all bookdown outputs
         run: | 
           # Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
