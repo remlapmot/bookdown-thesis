@@ -1,4 +1,4 @@
-# An example thesis using Rmarkdown and bookdown
+# An example thesis using R Markdown and bookdown
 
 [![Build Status](https://github.com/remlapmot/bookdown-thesis/workflows/bookdown/badge.svg)](https://github.com/remlapmot/bookdown-thesis/actions?workflow=bookdown)
 
