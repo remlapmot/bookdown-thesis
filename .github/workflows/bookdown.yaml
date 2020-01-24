@@ -40,9 +40,10 @@ jobs:
           R -e 'install.packages("renv")'
           R -e 'renv::restore()'
 
-      - name: Build site
+      - name: Build all bookdown outputs
         run: | 
-          Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
+          # Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
+          Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
 
       - name: Commit files
         run: |
