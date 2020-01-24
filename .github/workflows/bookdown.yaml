@@ -43,6 +43,9 @@ jobs:
       # Setup TinyTeX - for pdf output 
       - name: Setup TinyTeX
         uses: r-lib/actions/setup-tinytex@v1
+
+      # Check TinyTex setup
+      - name: Check TinyTeX setup
         run: tlmgr --version
 
       - name: Build all bookdown outputs
