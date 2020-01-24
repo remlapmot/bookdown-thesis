@@ -1,5 +1,7 @@
 # An example thesis using Rmarkdown and bookdown
 
+[![Build Status](https://github.com/remlapmot/bookdown-thesis/workflows/Bookdown/badge.svg)](https://github.com/remlapmot/bookdown-thesis/actions?workflow=Bookdown)
+
 This repository provides the skeleton code needed to write a thesis using Rmarkdown and the bookdown package in R.
 
 Helpful links are:
