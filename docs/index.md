@@ -1,5 +1,5 @@
 ---
-title: 'MSc Data Science Thesis'
+title: ''
 author: "My Name"
 date: "24 January 2020"
 classoption: openany
