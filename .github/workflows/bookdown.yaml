@@ -43,7 +43,6 @@ jobs:
       - name: Build site
         run: | 
           Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
-          ls -l docs
 
       - name: Commit files
         run: |
