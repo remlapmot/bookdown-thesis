@@ -39,5 +39,6 @@ jobs:
           R -e 'renv::restore()'
 
       - name: Build site
-        run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
-        run: ls -l docs
+        run: | 
+          Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
+          ls -l docs
