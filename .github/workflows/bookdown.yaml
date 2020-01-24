@@ -2,6 +2,8 @@ on:
   push:
     branches: master
 
+name: Bookdown
+
 jobs:
   build:
     runs-on: macOS-latest
@@ -36,5 +38,5 @@ jobs:
           R -e 'install.packages(c("tidyverse", "kableExtra", "bookdown", "renv"))'
           R -e 'renv::restore()'
 
-      - name: Bookdown
+      - name: Build site
         run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
