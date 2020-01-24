@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <title>1 Introduction | MSc Data Science Thesis</title>
   <meta name="description" content="1 Introduction | MSc Data Science Thesis" />
-  <meta name="generator" content="bookdown 0.16.5 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.17 and GitBook 2.6.7" />
 
   <meta property="og:title" content="1 Introduction | MSc Data Science Thesis" />
   <meta property="og:type" content="book" />
@@ -33,6 +33,7 @@
   
 <link rel="prev" href="index.html"/>
 <link rel="next" href="methods.html"/>
+<script src="libs/header-attrs-2.1/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
@@ -53,18 +54,17 @@
 
 
 <style type="text/css">
-code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
-code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -84,7 +84,7 @@ pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-le
 div.sourceCode
   {   }
 @media screen {
-code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ff0000; font-weight: bold; } /* Alert */
 code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
@@ -130,18 +130,22 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 
 <ul class="summary">
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Acknowledgements</a></li>
-<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1" data-path="introduction.html"><a href="introduction.html"><i class="fa fa-check"></i><b>1</b> Introduction</a>
+<ul>
 <li class="chapter" data-level="1.1" data-path="introduction.html"><a href="introduction.html#background-information"><i class="fa fa-check"></i><b>1.1</b> Background information</a></li>
 <li class="chapter" data-level="1.2" data-path="introduction.html"><a href="introduction.html#literature-review"><i class="fa fa-check"></i><b>1.2</b> Literature review</a></li>
 </ul></li>
-<li class="chapter" data-level="2" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>2</b> Methods</a><ul>
+<li class="chapter" data-level="2" data-path="methods.html"><a href="methods.html"><i class="fa fa-check"></i><b>2</b> Methods</a>
+<ul>
 <li class="chapter" data-level="2.1" data-path="methods.html"><a href="methods.html#important-main-method"><i class="fa fa-check"></i><b>2.1</b> Important main method</a></li>
 <li class="chapter" data-level="2.2" data-path="methods.html"><a href="methods.html#additional-method"><i class="fa fa-check"></i><b>2.2</b> Additional method</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>3</b> Results</a><ul>
+<li class="chapter" data-level="3" data-path="results.html"><a href="results.html"><i class="fa fa-check"></i><b>3</b> Results</a>
+<ul>
 <li class="chapter" data-level="3.1" data-path="results.html"><a href="results.html#main-results"><i class="fa fa-check"></i><b>3.1</b> Main results</a></li>
 </ul></li>
-<li class="chapter" data-level="4" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>4</b> Discussion</a><ul>
+<li class="chapter" data-level="4" data-path="discussion.html"><a href="discussion.html"><i class="fa fa-check"></i><b>4</b> Discussion</a>
+<ul>
 <li class="chapter" data-level="4.1" data-path="discussion.html"><a href="discussion.html#what-i-found"><i class="fa fa-check"></i><b>4.1</b> What I found</a></li>
 <li class="chapter" data-level="4.2" data-path="discussion.html"><a href="discussion.html#what-it-means"><i class="fa fa-check"></i><b>4.2</b> What it means</a></li>
 </ul></li>
@@ -165,9 +169,9 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="introduction" class="section level1">
+<div id="introduction" class="section level1" number="1">
 <h1><span class="header-section-number">1</span> Introduction</h1>
-<div id="background-information" class="section level2">
+<div id="background-information" class="section level2" number="1.1">
 <h2><span class="header-section-number">1.1</span> Background information</h2>
 <ul>
 <li>text 1</li>
@@ -177,10 +181,16 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>more text</li>
 </ul>
 </div>
-<div id="literature-review" class="section level2">
+<div id="literature-review" class="section level2" number="1.2">
 <h2><span class="header-section-number">1.2</span> Literature review</h2>
-<p>One important development was made by <span class="citation">Abrams, Gillies, and Lambert (<a href="references.html#ref-Abrams2005" role="doc-biblioref">2005</a>)</span>.</p>
+<p>One important development was made by <span class="citation">Abrams, Gillies, and Lambert (<a href="#ref-Abrams2005" role="doc-biblioref">2005</a>)</span>.</p>
 
+</div>
+</div>
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-Abrams2005">
+<p>Abrams, K. R., C. L. Gillies, and P. C. Lambert. 2005. “Meta-Analysis of Heterogeneously Reported Trials Assessing Change from Baseline.” <em>Statistics in Medicine</em> 24: 3823–44.</p>
 </div>
 </div>
             </section>
