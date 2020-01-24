@@ -1,7 +1,7 @@
 ---
 title: 'MSc Data Science Thesis'
 author: "My Name"
-date: '2019'
+date: "24 January 2020"
 classoption: openany
 documentclass: book
 geometry: margin=1in
