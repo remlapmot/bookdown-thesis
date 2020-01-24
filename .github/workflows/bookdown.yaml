@@ -19,12 +19,12 @@ jobs:
           brew install pandoc
           brew install pandoc-citeproc
 
-      - name: Cache Renv packages
-        uses: actions/cache@v1
-        with:
-          path: $HOME/.local/share/renv
-          key: r-${{ hashFiles('renv.lock') }}
-          restore-keys: r-
+      # - name: Cache Renv packages
+      #   uses: actions/cache@v1
+      #   with:
+      #     path: $HOME/.local/share/renv
+      #     key: r-${{ hashFiles('renv.lock') }}
+      #     restore-keys: r-
 
       - name: Cache bookdown results
         uses: actions/cache@v1
@@ -36,7 +36,7 @@ jobs:
       - name: Install packages
         run: |
           R -e 'install.packages(c("tidyverse", "kableExtra", "bookdown", "renv"))'
-          R -e 'renv::restore()'
+          # R -e 'renv::restore()'
 
       - name: Build site
         run: | 
