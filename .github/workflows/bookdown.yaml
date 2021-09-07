@@ -1,62 +1,39 @@
+# Workflow derived from https://github.com/r-lib/actions/tree/master/examples
+# Need help debugging build failures? Start at https://github.com/r-lib/actions#where-to-find-help
 on:
   push:
-    branches: master
+    branches: [main, master]
 
 name: bookdown
 
 jobs:
-  build:
-    runs-on: macOS-latest
+  bookdown:
+    runs-on: ubuntu-latest
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@master
+      - uses: actions/checkout@v2
 
-      - name: Setup R
-        uses: r-lib/actions/setup-r@master
+      - uses: r-lib/actions/setup-pandoc@v1
 
-      - name: Install pandoc and pandoc citeproc
-        run: |
-          brew install pandoc
-          brew install pandoc-citeproc
-
-      # renv::init() # must have been run prior to this
-      - name: Cache Renv packages
-        uses: actions/cache@v1
+      - uses: r-lib/actions/setup-r@v1
         with:
-          path: $HOME/.local/share/renv
-          key: r-${{ hashFiles('renv.lock') }}
-          restore-keys: r-
+          use-public-rspm: true
+
+      - uses: r-lib/actions/setup-renv@v1
 
       - name: Cache bookdown results
-        uses: actions/cache@v1
+        uses: actions/cache@v2
         with:
           path: _bookdown_files
           key: bookdown-${{ hashFiles('**/*Rmd') }}
           restore-keys: bookdown-
 
-      # if not using renv # run: R -e 'install.packages(c("tidyverse", "kableExtra", "bookdown"))'
-      - name: Install packages
-        run: |
-          R -e 'install.packages("renv")'
-          R -e 'renv::restore()'
+      - name: Build site
+        run: Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
 
-      # Setup TinyTeX - for pdf output 
-      - name: Setup TinyTeX
-        uses: r-lib/actions/setup-tinytex@v1
-
-      - name: Build all bookdown outputs
-        run: | 
-          # Rscript -e 'bookdown::render_book("index.Rmd", quiet = TRUE)'
-          Rscript -e 'rmarkdown::render_site(encoding = "UTF-8")'
-
-      - name: Commit files
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          # git commit -m "Add changes" -a
-          git add -A && git commit -m "Add changes" || echo "No changes to commit"
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Deploy to GitHub pages 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: master
+          # folder: docs
